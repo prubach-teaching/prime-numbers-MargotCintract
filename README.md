@@ -36,7 +36,7 @@ n = 4
         for(int p=3;p<100;p++){
           if(sum<n-1){
            if(tab[p]==false){
-            System.out.print(" ,"+p);
+            System.out.print(", "+p);
             sum=sum+1;
            }
          }
