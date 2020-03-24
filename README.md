@@ -20,6 +20,7 @@ n = 4
           if(tab[l]==false){
            for(int j=l+1;j<100;j++){
              if(j%l==0){tab[j]=true;
+             }
            }
           }
         }
